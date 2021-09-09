@@ -1,0 +1,78 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.card-body{
+    padding: 25px;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.bg-gray{
+    background-color: #ccc;
+    padding: 2px;
+}
+
+.card{
+    margin: 0px 0px 5px 0px;
+}
+
+.card-title{
+    margin-top: 25px;
+}
+
+.pos-pencil{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.pos-trash{
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    color: red;
+}
+
+.circle {
+    background: gold;
+  width: 40px !important; 
+  height: 40px;
+  border-radius: 50%;
+  display: flex; /* or inline-flex */
+  align-items: center; 
+  justify-content: center;
+  position: relative;
+  left: 15%;
+  bottom: 15%;
+  }
+
+  .circle::before{
+      content: attr(data-FL);
+      background-color: attr(data-color);
+  }
+
+  .mt-2{
+      margin-top: 1.5em;
+  }
+
+  .btn-addUser{
+    width: 7% !important;
+    position: relative;
+    left: 2em;
+  }
+
+  .gap{
+    margin-top: 1em;
+  }
+  
+@media screen and (max-width: 1399px) {
+    .btn-addUser {
+      width: 8% !important;
+    }
+}
+
+  @media screen and (max-width: 900px) {
+    .btn-addUser {
+      width: 20% !important;
+    }
+}
+
